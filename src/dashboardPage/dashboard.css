@@ -1,0 +1,42 @@
+.dashboard-container {
+    text-align: center;
+  }
+  
+  .dashboard-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .nav-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nav-section li {
+    margin: 10px 0;
+  }
+  
+  .nav-section a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-section button {
+    background-color: #61dafb;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
